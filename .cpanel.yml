@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/pub_staging2.anthonyta.com/
-    - /bin/cp index.html $DEPLOYPATH
+    - export DEPLOYPATH=/home/anthonyt/pub_staging2.anthonyta.com/
+    - cp index.html $DEPLOYPATH
