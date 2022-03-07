@@ -2,4 +2,5 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/anthonyt/pub_staging2.anthonyta.com/
-    - /bin/cp -a /home/anthonyt/repositories/test $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+
